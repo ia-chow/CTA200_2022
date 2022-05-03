@@ -1,0 +1,155 @@
+    1  clear -x
+    2  cd ..
+    3  ls
+    4  cd ..
+    5  ls
+    6  cd scratc
+    7  cd scratch
+    8  ls
+    9  cd
+   10  ls
+   11  cd /
+   12  ls
+   13  ls *
+   14  ls
+   15  cd mnt
+   16  ls
+   17  cd scratch-lustre
+   18  ls
+   19  cd ichow
+   20  ls
+   21  cd ichow
+   22  ls
+   23  mkdir assignment_1
+   24  vim
+   25  ls
+   26  mv README.md assignment_1
+   27  ls
+   28  cd assignment_1
+   29  ls
+   30  find
+   31  cd ..
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd murray
+   36  find hello_world
+   37  ls
+   38  ls *
+   39  cd ..
+   40  ls
+   41  cd ..
+   42  ls
+   43  cd ..
+   44  ls
+   45  cd home
+   46  ls
+   47  cd murray
+   48  ls
+   49  cd ..
+   50  ls *
+   51  cd ..
+   52  ls
+   53  cd mnt
+   54  ls
+   55  cd scratch-lustre
+   56  ls
+   57  cd murray
+   58  ls
+   59  cd ..
+   60  ls
+   61  cd ..
+   62  ls
+   63  cd ..
+   64  ls
+   65  cd home/murray
+   66  ls
+   67  find
+   68  find Hello_world.c
+   69  ls
+   70  find . -name Hello_world.c
+   71  ls
+   72  cd Papers
+   73  ls
+   74  /tmp
+   75  cd tmo
+   76  cd tmp
+   77  ls
+   78  cd ..
+   79  ls
+   80  cd ..
+   81  ls
+   82  find . -name Hello_world.py
+   83  ls
+   84  cd tmp
+   85  ls
+   86  cd ..
+   87  ls
+   88  cd ..
+   89  ls
+   90  cd mnt
+   91  ls
+   92  cd scratch-lustre/murray
+   93  ls
+   94  cd ..
+   95  cd ichow
+   96  ls
+   97  cd assignment_1
+   98  scp ../../../../home/murray/tmp/Hello_world.py
+   99  cp ../../../../home/murray/tmp/Hello_world.py
+  100  cp ../../../../home/murray/tmp/'Hello_world.py'
+  101  cp ~murray/tmp/Hello_world.py
+  102  cp ~murray/tmp/Hello_world.py .
+  103  ls
+  104  cp ~murray/Papers/tmp/Hello_world.c
+  105  cp ~murray/Papers/tmp/Hello_world.c .
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd assignment_1
+  110  ls
+  111  mv Hello_world.c Hello_world_Chow.c
+  112  mv Hello_world_.py Hello_world_Chow.py
+  113  mv Hello_world.py Hello_world_Chow.py
+  114  ls
+  115  gcc
+  116  load
+  117  gcc Hello_world_Chow.c
+  118  ls
+  119  gcc --version
+  120  gcc Hello_world_Chow.c
+  121  ls
+  122  a.out
+  123  ./a.out
+  124  module load gcc
+  125  gcc --version
+  126  gcc Hello_world_Chow.c
+  127  ls
+  128  ./a.out
+  129  history
+  130  ls
+  131  mv a.out Hellow_world.x
+  132  ls
+  133  ./Hellow_world.x
+  134  ./Hello_world_Chow.c
+  135  run
+  136  ./Hello_world_Chow.py
+  137  clang
+  138  python
+  139  python3 Hello_world_Chow.py
+  140  vi Hello_world_Chow.py
+  141  ls
+  142  vi Hello_world_Chow.c
+  143  python3 Hello_world_Chow.py
+  144  gcc Hello_world_Chow.c
+  145  ls
+  146  ./a.out
+  147  python3 Hello_world_Chow.py | output_python.txt
+  148  python3 Hello_world_Chow.py | "output_python.txt"
+  149  python3 Hello_world_Chow.py > "output_python.txt"
+  150  ls
+  151  vim output_python.txt
+  152  ./a.out > "output_c.txt"
+  153  ls
+  154  vim output_c.txt
+  155  history > "history.txt"
